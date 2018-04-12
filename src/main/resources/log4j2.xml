@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+	<Properties>
+		<Property name="path">logs</Property>
+	</Properties>
+	<Appenders>
+		<!-- system console appender -->
+		<Console name="consoleAppender" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</Console>
+		<!-- file appender -->
+		<File name="fileAppender" fileName="${path}/spring-sample.log">
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</File>
+		<!-- kafka appender -->
+	   <Kafka name="kafkaAppender" topic="testlog">
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+			<Property name="bootstrap.servers">localhost:9092</Property>
+		</Kafka> 
+	</Appenders>
+	<Loggers>
+		<!-- Log everything in Spring Boot -->
+		<Logger name="org.springframework.boot" level="info"
+			additivity="false">
+			<AppenderRef ref="consoleAppender" />
+			<AppenderRef ref="fileAppender" />
+		</Logger>
+
+		<Logger name="org.springframework.web" level="info" additivity="false">
+			<AppenderRef ref="consoleAppender" />
+		</Logger>
+
+		<Logger name="dev.sample" level="info" additivity="false">
+			<AppenderRef ref="consoleAppender" />
+			<AppenderRef ref="fileAppender" />
+			<AppenderRef ref="kafkaAppender" />
+		</Logger>
+		<Root>
+			<AppenderRef ref="consoleAppender" />
+		</Root>
+	</Loggers>
+</Configuration>

@@ -1,0 +1,25 @@
+[INFO ] 2018-04-12 03:24:44.932 [main] SpringDemoApplication - Starting SpringDemoApplication on Ebrimas-MBP.home with PID 23401 (/Users/ebrimatunkara/eclipse-workspace/spring-sample/target/classes started by ebrimatunkara in /Users/ebrimatunkara/eclipse-workspace/spring-sample)
+[INFO ] 2018-04-12 03:24:44.935 [main] SpringDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-04-12 03:24:44.973 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a7b5aad: startup date [Thu Apr 12 03:24:44 EDT 2018]; root of context hierarchy
+[INFO ] 2018-04-12 03:24:45.881 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 18080 (http)
+[INFO ] 2018-04-12 03:24:46.115 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2018-04-12 03:24:46.117 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2018-04-12 03:24:46.118 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2018-04-12 03:24:46.118 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2018-04-12 03:24:46.118 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2018-04-12 03:24:46.146 [main] DemoService -  Bean initialized ......
+[INFO ] 2018-04-12 03:24:46.712 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 18080 (http)
+[INFO ] 2018-04-12 03:24:46.715 [main] SpringDemoApplication - Started SpringDemoApplication in 1.982 seconds (JVM running for 4.625)
+[INFO ] 2018-04-12 03:26:19.136 [Thread-3] AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a7b5aad: startup date [Thu Apr 12 03:24:44 EDT 2018]; root of context hierarchy
+[INFO ] 2018-04-12 03:26:30.367 [main] SpringDemoApplication - Starting SpringDemoApplication on Ebrimas-MBP.home with PID 23848 (/Users/ebrimatunkara/eclipse-workspace/spring-sample/target/classes started by ebrimatunkara in /Users/ebrimatunkara/eclipse-workspace/spring-sample)
+[INFO ] 2018-04-12 03:26:30.596 [main] SpringDemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-04-12 03:26:30.638 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3708b386: startup date [Thu Apr 12 03:26:30 EDT 2018]; root of context hierarchy
+[INFO ] 2018-04-12 03:26:31.484 [main] TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 18080 (http)
+[INFO ] 2018-04-12 03:26:31.705 [localhost-startStop-1] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2018-04-12 03:26:31.708 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2018-04-12 03:26:31.708 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2018-04-12 03:26:31.708 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2018-04-12 03:26:31.708 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2018-04-12 03:26:31.738 [main] DemoService -  Bean initialized ......
+[INFO ] 2018-04-12 03:26:32.337 [main] TomcatEmbeddedServletContainer - Tomcat started on port(s): 18080 (http)
+[INFO ] 2018-04-12 03:26:32.341 [main] SpringDemoApplication - Started SpringDemoApplication in 2.178 seconds (JVM running for 4.868)
